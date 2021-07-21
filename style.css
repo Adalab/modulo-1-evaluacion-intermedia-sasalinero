@@ -9,18 +9,23 @@
     
 .logo_adalab{
     width: 155px;
+    
+
 }
 .menu{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+   
 }
 .menuheader{
 
     color: #4a4a4a;
     font-size: 16px;
     text-transform: uppercase;
-    width: 100%;
+    width: 100vw;
     background-color: red;
+  
       
   
    
@@ -37,5 +42,6 @@
     color: #FFFFFF;
     font-size: 30px;
     text-align: center;
+    padding:10px ;
         
 }
