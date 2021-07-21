@@ -9,6 +9,7 @@
     
 .logo_adalab{
     width: 155px;
+    margin-top: 10px;
     
     
 
@@ -56,4 +57,24 @@
     text-align: center;
     padding:10px ;
         
+}
+@media(min-widh:768px){
+    .menuheader{
+        font-size: 16px;
+    }
+    .container{
+        font-size: 40px;
+    }
+    .menu li{
+        display: flex;
+        justify-content: end;
+    }
+    .logo_adalab{
+        width: 155px;
+        margin-top: 20px;
+        left: 30px;
+        margin-bottom: 20px;
+        
+           
+    }
 }
