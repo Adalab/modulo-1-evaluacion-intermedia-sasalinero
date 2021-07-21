@@ -1,0 +1,18 @@
+*{
+   font-family: 'Rubik', sans-serif;
+}
+.logo_adalab{
+    width: 155px;
+}
+.menuheader{
+
+    color: #4a4a4a;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.principal{
+    background-color: #3cdbc3;
+    color: #FFFFFF;
+    font-size: 30px;
+}
