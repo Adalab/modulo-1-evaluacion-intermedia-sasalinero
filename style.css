@@ -5,6 +5,7 @@
 .cabecera_fija{
     position: fixed;
    background-color: white;
+   width: 100vw;
 }
     
 .logo_adalab{
@@ -33,7 +34,7 @@
     color: #4a4a4a;
     font-size: 16px;
     text-transform: uppercase;
-    width: 100vw;
+
    
 
       
@@ -58,16 +59,25 @@
     padding:10px ;
         
 }
-@media(min-widh:768px){
+@media(min-width:768px){
+    .cabecera_fija{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
     .menuheader{
         font-size: 16px;
     }
     .container{
         font-size: 40px;
     }
+    .menu {
+        justify-content: flex-end;
+    }
     .menu li{
-        display: flex;
-        justify-content: end;
+               
+        margin-right: 30px;
     }
     .logo_adalab{
         width: 155px;
