@@ -42,17 +42,19 @@
 
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
   height: 100vh;
-
+  width: 100vw;
   background-color: #3cdbc3;
   text-transform: capitalize;
 }
 .digital {
   display: block;
-  text-align: center;
   font-size: 30px;
-  width: 50%;
+  width: 155px;
+  text-align: center;
+  line-height: 150%;
 }
 
 @media (min-width: 768px) {
@@ -79,7 +81,6 @@
     align-items: center;
   }
   .digital {
-    width: 30%;
     font-family: "Rubik", sans-serif;
   }
 
