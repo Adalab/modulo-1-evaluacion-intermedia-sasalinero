@@ -35,6 +35,12 @@
   margin-bottom: 13px;
   text-transform: uppercase;
 }
+.blog,
+.contacto {
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+}
 .container {
   display: flex;
   justify-content: center;
