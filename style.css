@@ -1,90 +1,85 @@
-*{
-   font-family: 'Rubik', sans-serif;
-   
+* {
+  font-family: "Rubik", sans-serif;
 }
-.cabecera_fija{
-    position: fixed;
-   background-color: white;
-   width: 100vw;
+.principal {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  height: 100vh;
 }
-    
-.logo_adalab{
-    width: 155px;
-    margin-top: 10px;
-    
-    
+.cabecera_fija {
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  top: 0;
+}
 
+.logo_adalab {
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.menu{
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.menuheader {
+  color: #4a4a4a;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu li {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #3cdbc3;
+  text-transform: capitalize;
+}
+.digital {
+  background-color: red;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .cabecera_fija {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-   
-    
-   
-}
-.menu li{
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 13px;
-
-}
-.menuheader{
-
-    color: #4a4a4a;
-    font-size: 16px;
-    text-transform: uppercase;
-
-   
-
-      
-  
-   
-}
-.container{
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    background-color: #3cdbc3;
+  }
+  .menuheader {
+    font-size: 16px;
+  }
+  .menu {
+    margin-right: 30px;
+    justify-content: flex-end;
+  }
+  .blog {
+    margin-right: 20px;
+  }
+  .container {
+    display: flex;
+    font-size: 40px;
+  }
 
-  
-    
-}
-.principal{
-    
-    color: #FFFFFF;
-    font-size: 30px;
-    text-align: center;
-    padding:10px ;
-        
-}
-@media(min-width:768px){
-    .cabecera_fija{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-    .menuheader{
-        font-size: 16px;
-    }
-    .container{
-        font-size: 40px;
-    }
-    .menu {
-        justify-content: flex-end;
-    }
-    .menu li{
-               
-        margin-right: 30px;
-    }
-    .logo_adalab{
-        width: 155px;
-        margin-top: 20px;
-        left: 30px;
-        margin-bottom: 20px;
-        
-           
-    }
+  .logo_adalab {
+    width: 155px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
 }
