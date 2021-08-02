@@ -49,10 +49,10 @@
   text-transform: capitalize;
 }
 .digital {
-  background-color: red;
   display: block;
   text-align: center;
   font-size: 30px;
+  width: 50%;
 }
 
 @media (min-width: 768px) {
@@ -73,7 +73,14 @@
   }
   .container {
     display: flex;
+    width: 100%;
     font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .digital {
+    width: 30%;
+    font-family: "Rubik", sans-serif;
   }
 
   .logo_adalab {
